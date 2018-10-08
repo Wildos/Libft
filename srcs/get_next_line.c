@@ -6,11 +6,12 @@
 /*   By: tfernand <tfernand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/19 09:41:40 by tfernand          #+#    #+#             */
-/*   Updated: 2018/07/19 11:43:09 by tfernand         ###   ########.fr       */
+/*   Updated: 2018/10/08 14:56:28 by tfernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include "get_next_line.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

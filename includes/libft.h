@@ -6,23 +6,13 @@
 /*   By: tfernand <tfernand@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/04/11 17:36:12 by tfernand          #+#    #+#             */
-/*   Updated: 2018/07/19 11:33:28 by tfernand         ###   ########.fr       */
+/*   Updated: 2018/10/08 14:53:54 by tfernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 # include <string.h>
-
-# define BUFF_SIZE 32
-
-typedef struct	s_data_buff
-{
-	int			fd;
-	char		data[BUFF_SIZE + 1];
-}				t_data_buff;
-
-int				get_next_line(const int fd, char **line);
 
 void			*ft_memset(void *b, int c, size_t len);
 void			ft_bzero(void *s, size_t n);
